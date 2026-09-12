@@ -1,0 +1,25 @@
+VIVA FIT — DEMO COMERCIAL V4
+
+IMAGENS
+Substitua os JPGs da pasta assets/images pelas fotos que você escolher. Mantenha exatamente estes nomes:
+hero.jpg
+editorial-01.jpg
+editorial-02.jpg
+collection-leggings.jpg
+collection-tops.jpg
+collection-conjuntos.jpg
+collection-shorts.jpg
+lookbook-01.jpg
+lookbook-02.jpg
+lookbook-03.jpg
+
+Dica: para a estética do vídeo, prefira fotos verticais/recortáveis, fundo limpo, boa luz e roupas fitness claramente visíveis.
+
+PRODUTOS
+As imagens dos produtos são SVGs locais para não depender de links externos.
+
+ABRIR
+Extraia a pasta e abra index.html.
+
+OBSERVAÇÃO
+Este é um protótipo/demonstração comercial. O WhatsApp usa um número fictício até o cliente fornecer o número real.
