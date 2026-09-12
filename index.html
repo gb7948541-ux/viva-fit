@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#11110f">
+<meta name="description" content="VIVA FIT — performance, presença e movimento.">
+<title>VIVA FIT — Movement / Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader" aria-hidden="true"><div class="loader-word">VIVA <span>FIT</span></div><div class="loader-line"><i></i></div></div>
+
+<header class="site-header" id="header">
+  <div class="announcement">NOVA COLEÇÃO · PERFORMANCE ESSENTIALS · 2026</div>
+  <div class="nav-wrap">
+    <a class="brand" href="#top" aria-label="VIVA FIT">VIVA<span>FIT</span></a>
+    <nav class="desktop-nav">
+      <a href="#colecao">Coleção</a><a href="#manifesto">Manifesto</a><a href="#shop">Shop</a><a href="#lookbook">Lookbook</a>
+    </nav>
+    <div class="nav-actions"><button class="nav-link" id="cartBtn">Bag <b id="cartCount">0</b></button><button class="menu-btn" id="menuBtn" aria-label="Abrir menu">MENU</button></div>
+  </div>
+  <div class="mobile-nav" id="mobileNav"><a href="#colecao">Coleção</a><a href="#manifesto">Manifesto</a><a href="#shop">Shop</a><a href="#lookbook">Lookbook</a></div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-media media"><img src="assets/images/hero.jpg" alt="Campanha VIVA FIT" data-media></div>
+  <div class="hero-shade"></div>
+  <div class="hero-copy reveal">
+    <p class="eyebrow">VIVA FIT / 001</p>
+    <h1>MOVE<br><em>YOUR</em><br>WAY.</h1>
+    <div class="hero-bottom"><p>Performance wear para quem transforma movimento em presença.</p><a class="circle-link" href="#colecao">Explorar <span>↘</span></a></div>
+  </div>
+  <div class="scroll-note"><span></span> SCROLL TO DISCOVER</div>
+</section>
+
+<section class="intro section-dark reveal" id="manifesto">
+  <div class="section-index">01 / MANIFESTO</div>
+  <div class="intro-grid"><h2>FEITA PARA<br><span>SE MOVER.</span></h2><div class="intro-copy"><p class="lead">A VIVA FIT nasce entre performance e estética. Peças que acompanham treino, rotina e tudo o que acontece depois.</p><p>Modelagem que valoriza o corpo, materiais pensados para o movimento e uma identidade que não precisa gritar para ser percebida.</p><a href="#shop" class="text-link">CONHEÇA A COLEÇÃO <span>↗</span></a></div></div>
+</section>
+
+<section class="editorial section-light">
+  <div class="editorial-row reveal"><div class="media editorial-img"><img src="assets/images/editorial-01.jpg" alt="Editorial VIVA FIT" data-media></div><div class="editorial-text"><span class="kicker">THE FORM / 01</span><h2>O CORPO<br><i>EM MOVIMENTO.</i></h2><p>Linhas limpas. Compressão na medida. Liberdade para treinar sem pensar na roupa.</p><a href="#shop" class="text-link">SHOP PERFORMANCE <span>↗</span></a></div></div>
+  <div class="editorial-row reverse reveal"><div class="media editorial-img"><img src="assets/images/editorial-02.jpg" alt="Editorial VIVA FIT" data-media></div><div class="editorial-text"><span class="kicker">THE FORM / 02</span><h2>MENOS<br><i>RUÍDO.</i></h2><p>Uma linguagem visual minimalista para uma mulher que já sabe o que quer vestir.</p><a href="#colecao" class="text-link">VER CATEGORIAS <span>↗</span></a></div></div>
+</section>
+
+<section class="collection section-dark" id="colecao">
+  <div class="section-head reveal"><div><span class="kicker">02 / COLLECTION</span><h2>THE<br><i>ESSENTIALS.</i></h2></div><p>Quatro bases. Infinitas combinações.</p></div>
+  <div class="collection-grid">
+    <a class="collection-card large reveal" href="#shop" data-filter-link="Leggings"><div class="media"><img src="assets/images/collection-leggings.jpg" alt="Leggings" data-media></div><div class="card-overlay"><small>01</small><h3>LEGGINGS</h3><span>EXPLORE →</span></div></a>
+    <a class="collection-card reveal" href="#shop" data-filter-link="Tops"><div class="media"><img src="assets/images/collection-tops.jpg" alt="Tops" data-media></div><div class="card-overlay"><small>02</small><h3>TOPS</h3><span>EXPLORE →</span></div></a>
+    <a class="collection-card reveal" href="#shop" data-filter-link="Conjuntos"><div class="media"><img src="assets/images/collection-conjuntos.jpg" alt="Conjuntos" data-media></div><div class="card-overlay"><small>03</small><h3>CONJUNTOS</h3><span>EXPLORE →</span></div></a>
+    <a class="collection-card reveal" href="#shop" data-filter-link="Shorts"><div class="media"><img src="assets/images/collection-shorts.jpg" alt="Shorts" data-media></div><div class="card-overlay"><small>04</small><h3>SHORTS</h3><span>EXPLORE →</span></div></a>
+  </div>
+</section>
+
+<div class="marquee"><div>VIVA FIT · MOVEMENT · FORM · PERFORMANCE · VIVA FIT · MOVEMENT · FORM · PERFORMANCE · </div></div>
+
+<section class="shop section-light" id="shop">
+  <div class="shop-head reveal"><div><span class="kicker">03 / SHOP</span><h2>SELECTED<br><i>PIECES.</i></h2></div><div class="shop-tools"><div class="filters" id="filters"><button class="active" data-filter="Todos">Todos</button><button data-filter="Leggings">Leggings</button><button data-filter="Tops">Tops</button><button data-filter="Conjuntos">Conjuntos</button><button data-filter="Shorts">Shorts</button><button data-filter="Croppeds">Croppeds</button></div><input id="search" type="search" placeholder="Buscar peça..."></div></div>
+  <div class="product-grid" id="productGrid"></div>
+</section>
+
+<section class="lookbook section-dark" id="lookbook">
+  <div class="section-head reveal"><div><span class="kicker">04 / LOOKBOOK</span><h2>STUDIO<br><i>SESSIONS.</i></h2></div><p>Imagem, atitude e movimento no mesmo quadro.</p></div>
+  <div class="look-grid">
+    <div class="look look-a reveal"><div class="media"><img src="assets/images/lookbook-01.jpg" alt="Lookbook VIVA FIT" data-media></div><span>01 / FORM</span></div>
+    <div class="look look-b reveal"><div class="media"><img src="assets/images/lookbook-02.jpg" alt="Lookbook VIVA FIT" data-media></div><span>02 / MOTION</span></div>
+    <div class="look look-c reveal"><div class="media"><img src="assets/images/lookbook-03.jpg" alt="Lookbook VIVA FIT" data-media></div><span>03 / ENERGY</span></div>
+  </div>
+</section>
+
+<section class="closing section-light reveal"><div class="closing-line"></div><p class="kicker">VIVA FIT / 2026</p><h2>WEAR THE<br><i>MOVEMENT.</i></h2><a href="#shop" class="primary-btn">SHOP COLLECTION <span>↗</span></a></section>
+</main>
+
+<footer class="footer"><div class="footer-top"><a class="brand footer-brand" href="#top">VIVA<span>FIT</span></a><p>Performance, presença<br>e movimento.</p><div class="footer-links"><a href="#colecao">Coleção</a><a href="#shop">Shop</a><a href="#lookbook">Lookbook</a><a href="#">Instagram</a></div></div><div class="footer-bottom"><span>© 2026 VIVA FIT</span><span>DEMO COMERCIAL · NÃO É E-COMMERCE OFICIAL</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+
+<aside class="cart" id="cart"><div class="cart-head"><h2>YOUR BAG</h2><button id="closeCart">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-foot"><div><span>Subtotal</span><strong id="cartTotal">R$ 0,00</strong></div><button id="whatsBtn" class="primary-btn">FINALIZAR NO WHATSAPP ↗</button></div></aside><div class="cart-backdrop" id="cartBackdrop"></div>
+
+<div class="product-modal" id="productModal"><div class="modal-box"><button class="modal-close" id="modalClose">×</button><div class="modal-media media"><img id="modalImg" alt="" data-media></div><div class="modal-info"><span id="modalCat" class="kicker"></span><h2 id="modalName"></h2><div class="modal-price" id="modalPrice"></div><p id="modalDesc"></p><div class="sizes" id="modalSizes"></div><div class="modal-actions"><div class="qty"><button id="qtyMinus">−</button><span id="qtyValue">1</span><button id="qtyPlus">+</button></div><button class="primary-btn" id="addBtn">ADICIONAR À BAG</button></div></div></div></div>
+
+<script src="app.js"></script>
+</body></html>
